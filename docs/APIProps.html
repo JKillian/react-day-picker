@@ -1,0 +1,490 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Component props | react-day-picker</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+        <link rel="stylesheet" href="../docs/styles/website.css">
+    
+
+        
+    
+    
+    <link rel="next" href="../docs/APIMethods.html" />
+    
+    
+    <link rel="prev" href="../docs/API.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="2.1" data-chapter-title="Component props" data-filepath="docs/APIProps.md" data-basepath=".." data-revision="Wed Nov 11 2015 16:37:59 GMT+0100 (CET)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/GettingStarted.html">
+            
+                
+                    <a href="../docs/GettingStarted.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Getting started
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/API.html">
+            
+                
+                    <a href="../docs/API.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Component API
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1" data-path="docs/APIProps.html">
+            
+                
+                    <a href="../docs/APIProps.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Component props
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="docs/APIMethods.html">
+            
+                
+                    <a href="../docs/APIMethods.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Component methods
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/Styling.html">
+            
+                
+                    <a href="../docs/Styling.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Styling
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="docs/Localization.html">
+            
+                
+                    <a href="../docs/Localization.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Localization
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="docs/LocalizationMoment.html">
+            
+                
+                    <a href="../docs/LocalizationMoment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Localization with moment.js
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="docs/LocalizationCustom.html">
+            
+                
+                    <a href="../docs/LocalizationCustom.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Custom localization
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="docs/Tips.html">
+            
+                
+                    <a href="../docs/Tips.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Tips
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="docs/Utilities.html">
+            
+                
+                    <a href="../docs/Utilities.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Utilities
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="docs/DateUtils.html">
+            
+                
+                    <a href="../docs/DateUtils.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        dateUtils
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="docs/LocaleUtils.html">
+            
+                
+                    <a href="../docs/LocaleUtils.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        localeUtils
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >react-day-picker</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="component-props">Component props</h1>
+<h4 id="modifiers-object">modifiers (Object)</h4>
+<p>An object of named functions returning a boolean: <code>modifier(day: Date) -&gt; Bool</code>.</p>
+<p>When a function of this object evaluates <code>true</code>, its name is used as CSS modifier for the day&apos;s cell.</p>
+<p>For example, the following modifiers will add a <code>DayPicker-Day--isFirstOfMonth</code> CSS class to the cells of the months&apos; first days, and <code>DayPicker-Day--isDisabled</code> to each Sunday.</p>
+<pre><code class="lang-jsx"><span class="token keyword">import</span> DayPicker from <span class="token string">&quot;react-day-picker&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">isFirstOfMonth</span><span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> day<span class="token punctuation">.</span><span class="token function">getDate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">function</span> <span class="token function">isDisabled</span><span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> day<span class="token punctuation">.</span><span class="token function">getDay</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">===</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">MyComponent</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>DayPicker</span> <span class="token attr-name">modifiers</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span> <span class="token punctuation">{</span> isDisabled<span class="token punctuation">,</span> isFirstOfMonth <span class="token punctuation">}</span></span> } <span class="token punctuation">/&gt;</span></span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>By default, the calendar includes <code>--today</code> and <code>--outside</code> modifier. &quot;Outside&quot; are the days that appear on the calendar but don&apos;t belong to the current month.</p>
+<hr>
+<h4 id="initialmonth-date">initialMonth (Date)</h4>
+<p>The month to display in the calendar. Default is the current month.</p>
+<hr>
+<h4 id="numberofmonths-number">numberOfMonths (Number)</h4>
+<p>The number of months to render, where <code>initialMonth</code> is the first month. Default is <code>1</code>.</p>
+<hr>
+<h4 id="renderday-function">renderDay (Function)</h4>
+<p>Returns the content of a day cell. By default, it renders the day&apos;s date: <code>(day) =&gt; day.getDate()</code>.</p>
+<p>It can return React elements. For example, the following code will display the day and the name of the people celebrating a birthday that day.</p>
+<pre><code class="lang-jsx"><span class="token keyword">function</span> <span class="token function">renderDay</span><span class="token punctuation">(</span>day<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> birthdays <span class="token operator">=</span> <span class="token function">getBirthdaysForDay</span><span class="token punctuation">(</span>day<span class="token punctuation">)</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>day<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token punctuation">{</span> day<span class="token punctuation">.</span><span class="token function">getDate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">}</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token punctuation">{</span>
+        birthdays<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span>birthday<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>birthday<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token punctuation">{</span> birthday<span class="token punctuation">.</span>name <span class="token punctuation">}</span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">BirthdaysCalendar</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>DayPicker</span> <span class="token attr-name">renderDay</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span>renderDay<span class="token punctuation">}</span></span> <span class="token attr-name">numberOfMonths</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span> 12 <span class="token punctuation">}</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<h4 id="enableoutsidedays-boolean">enableOutsideDays (Boolean)</h4>
+<p>Display the days outside the current month. Default is <code>false</code>.</p>
+<hr>
+<h4 id="canchangemonth-boolean">canChangeMonth (Boolean)</h4>
+<p>Enable the navigation between months. Default is <code>true</code>.</p>
+<hr>
+<h4 id="frommonth-date">fromMonth (Date)</h4>
+<p>The first allowed month. Users won&apos;t be able to navigate or interact with the days before it.</p>
+<hr>
+<h4 id="tomonth-date">toMonth (Date)</h4>
+<p>The last allowed month. Users won&apos;t be able to navigate or interact with the days after it.</p>
+<hr>
+<h4 id="localeutils-object">localeUtils (Object)</h4>
+<p>Object of functions to format dates and to get the first day of the week. Pass your own utils to support localization.
+By default the used locale is English (US). See also <a href="Localization.html">Localization</a>.</p>
+<hr>
+<h4 id="locale-string">locale (String)</h4>
+<p>The locale used by the <code>localeUtils</code> functions. Default is <code>en</code>.  See also <a href="Localization.html">Localization</a> and <a href="LocaleUtils.html">LocaleUtils</a>.</p>
+<hr>
+<h4 id="ondayclick-function">onDayClick (Function)</h4>
+<p>Event handler when the user clicks on a day cell. Example:</p>
+<pre><code class="lang-jsx"><span class="token keyword">function</span> <span class="token function">onDayClick</span><span class="token punctuation">(</span>e<span class="token punctuation">,</span> day<span class="token punctuation">,</span> modifiers<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Day %s has been clicked&quot;</span><span class="token punctuation">,</span> day<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<h4 id="ondaytouchtap-function">onDayTouchTap (Function)</h4>
+<p>Event handler when the user taps (or click) on a day cell. 
+Requires <a href="https://github.com/zilverline/react-tap-event-plugin" target="_blank">react-tap-event-plugin</a>. Example:</p>
+<pre><code>import reactTapEvent from &quot;react-tap-event-plugin&quot;;
+reactTapEvent()
+
+function onDayTouchTap(e, day, modifiers) {
+  console.log(&quot;Day %s has been tapped&quot;, day.toString());
+}
+</code></pre><hr>
+<h4 id="ondaymouseenter-function">onDayMouseEnter (Function)</h4>
+<p>Event handler when the mouse enters a day cell. Example:</p>
+<pre><code class="lang-jsx"><span class="token keyword">function</span> <span class="token function">onDayMouseEnter</span><span class="token punctuation">(</span>e<span class="token punctuation">,</span> day<span class="token punctuation">,</span> modifiers<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// do stuff, e.g. show a tooltip</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<h4 id="ondaymouseleave-function">onDayMouseLeave (Function)</h4>
+<p>Event handler when the mouse leave a day cell. Example:</p>
+<pre><code class="lang-jsx"><span class="token keyword">function</span> <span class="token function">onDayMouseLeave</span><span class="token punctuation">(</span>e<span class="token punctuation">,</span> day<span class="token punctuation">,</span> modifiers<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+   <span class="token comment" spellcheck="true">// do things, e.g. hide a tooltip</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<h4 id="onmonthchange-function">onMonthChange (Function)</h4>
+<p>Event handler when the month is changed, i.e. clicking the navigation buttons or using the keyboard. Example:</p>
+<pre><code class="lang-jsx"><span class="token keyword">function</span> <span class="token function">onMonthChange</span><span class="token punctuation">(</span>month<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+   <span class="token comment" spellcheck="true">// do magic, e.g. request a server for days availability</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<h4 id="oncaptionclick-function">onCaptionClick (Function)</h4>
+<p>Event handler when the user clicks on the caption in the header displaying the month. Example:</p>
+<pre><code class="lang-jsx"><span class="token keyword">function</span> <span class="token function">onCaptionClick</span><span class="token punctuation">(</span>e<span class="token punctuation">,</span> currentMonth<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment" spellcheck="true">// Set daypicker to initial month</span>
+  <span class="token keyword">var</span> daypicker <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>refs<span class="token punctuation">.</span>daypicker<span class="token punctuation">;</span>
+  daypicker<span class="token punctuation">.</span><span class="token function">showMonth</span><span class="token punctuation">(</span>daypicker<span class="token punctuation">.</span>props<span class="token punctuation">.</span>initialMonth<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<h4 id="classname-string">className (String)</h4>
+<p>Class names to add to the root node.</p>
+<hr>
+<h4 id="style-object">style (Object)</h4>
+<p>A custom style object to add to the root node.</p>
+<hr>
+<h4 id="tabindex-number">tabIndex (Number)</h4>
+<p>The tab index for keyboard navigation. Default is <code>0</code>.</p>
+<hr>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../docs/API.html" class="navigation navigation-prev " aria-label="Previous page: Component API"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../docs/APIMethods.html" class="navigation navigation-next " aria-label="Next page: Component methods"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"github":{"url":"https://github.com/gpbl/react-day-picker/"},"prism":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

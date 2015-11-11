@@ -1,0 +1,406 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Localization with moment.js | react-day-picker</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+        <link rel="stylesheet" href="../docs/styles/website.css">
+    
+
+        
+    
+    
+    <link rel="next" href="../docs/LocalizationCustom.html" />
+    
+    
+    <link rel="prev" href="../docs/Localization.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="4.1" data-chapter-title="Localization with moment.js" data-filepath="docs/LocalizationMoment.md" data-basepath=".." data-revision="Wed Nov 11 2015 16:37:59 GMT+0100 (CET)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/GettingStarted.html">
+            
+                
+                    <a href="../docs/GettingStarted.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Getting started
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/API.html">
+            
+                
+                    <a href="../docs/API.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Component API
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="docs/APIProps.html">
+            
+                
+                    <a href="../docs/APIProps.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Component props
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="docs/APIMethods.html">
+            
+                
+                    <a href="../docs/APIMethods.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Component methods
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/Styling.html">
+            
+                
+                    <a href="../docs/Styling.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Styling
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="docs/Localization.html">
+            
+                
+                    <a href="../docs/Localization.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Localization
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="4.1" data-path="docs/LocalizationMoment.html">
+            
+                
+                    <a href="../docs/LocalizationMoment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Localization with moment.js
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="docs/LocalizationCustom.html">
+            
+                
+                    <a href="../docs/LocalizationCustom.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Custom localization
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="docs/Tips.html">
+            
+                
+                    <a href="../docs/Tips.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Tips
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="docs/Utilities.html">
+            
+                
+                    <a href="../docs/Utilities.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Utilities
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="docs/DateUtils.html">
+            
+                
+                    <a href="../docs/DateUtils.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        dateUtils
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="docs/LocaleUtils.html">
+            
+                
+                    <a href="../docs/LocaleUtils.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        localeUtils
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >react-day-picker</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="localization-with-momentjs">Localization with moment.js</h1>
+<p>To localize the calendar with <a href="http://www.momentjs.com" target="_blank">moment.js</a>:</p>
+<ol>
+<li>make sure <a href="https://www.npmjs.com/package/moment" target="_blank">moment</a> is included in your dependencies </li>
+<li>make sure the required moment&apos;s locale data is loaded</li>
+<li>import <code>localeUtils</code> from <code>react-day-picker/moment</code> and pass it to the <code>localeUtils</code> props</li>
+<li>use the <code>locale</code> prop to pass the current locale</li>
+</ol>
+<h3 id="example">Example</h3>
+<p>The following component shows four day pickers: english, japanese, arabic and italian.</p>
+<pre><code class="lang-jsx">
+<span class="token keyword">import</span> React from <span class="token string">&quot;react&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> DayPicker from <span class="token string">&quot;react-day-picker&quot;</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">// Use this util to format the calendar values according to the</span>
+<span class="token comment" spellcheck="true">// selected locale with moment.js</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> localeUtils <span class="token punctuation">}</span> from <span class="token string">&quot;react-day-picker/moment&quot;</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">// Make sure moment.js has the required locale data</span>
+<span class="token keyword">import</span> <span class="token string">&quot;moment/locale/ja&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">&quot;moment/locale/ar&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">&quot;moment/locale/it&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">LocalizedExample</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>English<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>DayPicker</span> <span class="token attr-name">localeUtils</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span> localeUtils <span class="token punctuation">}</span></span> <span class="token attr-name">locale</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Japanese<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>DayPicker</span> <span class="token attr-name">localeUtils</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span> localeUtils <span class="token punctuation">}</span></span> <span class="token attr-name">locale</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>jp<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Arabic<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>DayPicker</span> <span class="token attr-name">localeUtils</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span> localeUtils <span class="token punctuation">}</span></span> <span class="token attr-name">locale</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ar<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Italian<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>DayPicker</span> <span class="token attr-name">localeUtils</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span> localeUtils <span class="token punctuation">}</span></span> <span class="token attr-name">locale</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>it<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../docs/Localization.html" class="navigation navigation-prev " aria-label="Previous page: Localization"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../docs/LocalizationCustom.html" class="navigation navigation-next " aria-label="Next page: Custom localization"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"github":{"url":"https://github.com/gpbl/react-day-picker/"},"prism":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
